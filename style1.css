@@ -90,14 +90,14 @@ html,body{
 
 .education th,
 .education td {
-  border: 5px solid #c6c5c5;
+  border: 5px solid #e0f80bb7;
   padding: 15px 20px; 
   text-align: left;
   transition: all 0.3s ease; 
 }
 
 .education th {
-  background: #181b2ce1;
+  background: #398126;
   color: white;
 }
 
@@ -125,15 +125,16 @@ html,body{
     font-family: 'Segoe UI', Tahoma, sans-serif;
 }
 
-.skills-container {
+.skill-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 50px;
-    max-width: 90%;
+    max-width: 70%;
     margin: auto;
 }
 
 .skill-card {
+    flex-basis: 33%;
     background: rgb(255, 255, 255);
     padding: 25px 15px;
     border-radius: 12px;

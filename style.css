@@ -336,35 +336,33 @@ i{
   margin-top: 5%;
   margin-bottom: 1%;
 }
-.footer-icons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 55px;
-}
 
-.footer-icons a:hover {
-  transform: scale(1.5);
-  transition: 0.3s ease;
+/* Footer */
+.footer-icons {
+    margin-bottom: 20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    gap: 30px; 
 }
 
 .footer-icons a {
-  position: relative;
-  font-size: 1.3rem;
-  color: #020101; 
+  font-size: 24px; 
+  color: #f92e2e; 
+  transition: color 0.3s ease, transform 0.2s ease;
 }
 
-.love{
-    font-size: 1rem;
-    margin-bottom:0px; 
-    margin-top: 10px;
+.footer-icons a:hover {
+  color: #000dff;
+  transform: scale(1.2); /* Added for modern look */
 }
 
 .image {
   display: inline-block;
-  padding: 3px;                 
+  padding: 5px;                 
   background-color: rgba(0, 0, 255, 0.348);       
-  border-radius: 35%;
+  border-radius: 50%;
 }
 
 .image img {
@@ -425,7 +423,7 @@ i{
   .myphoto img {
     width: 200px;
     height: 200px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
   }
   .parent {
     width: 90%;

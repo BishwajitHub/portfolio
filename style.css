@@ -364,7 +364,7 @@ i{
   display: inline-block;
   padding: 3px;                 
   background-color: rgba(0, 0, 255, 0.348);       
-  border-radius: 50%;
+  border-radius: 35%;
 }
 
 .image img {

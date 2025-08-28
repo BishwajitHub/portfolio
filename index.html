@@ -150,14 +150,15 @@
    <!-- footer section closed -->
 
     <!-- javascript for the navbar for only mobile phone -->
-     <script>
-      const toggle=document.getElementById("menu-toggel");
-       const navLinks=document.getElementById("nav-links");
+     <!-- JavaScript for the navbar toggle (only for mobile) -->
+<script>
+  const toggle = document.getElementById("menu-toggle");
+  const navLinks = document.getElementById("nav-links");
 
-       toggle.addEventListener("click",() =>{
-        navLinks.classList.toggle("active");
-       });
-      
-     </script>
+  toggle.addEventListener("click", () => {
+    navLinks.classList.toggle("active");
+  });
+</script>
+
 </body>
 </html>

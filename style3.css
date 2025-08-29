@@ -21,6 +21,7 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
+  filter: brightness(200%);
 }
 
 #information::after {
@@ -230,4 +231,35 @@ footer {
   .home h3 {
     text-align: center;
   }
+}
+
+/* next fotter for copy-Right */
+/* Owner section */
+#footer1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0e6d2;
+    position: relative;
+}
+
+#footer1 img {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+#footer1 p {
+    font-family: cursive;
+    font-weight: bold;
+}
+
+#top{
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+}
+#top a{
+    color:#ff0000;
+    font-size: 1.2rem;
 }

@@ -49,6 +49,30 @@ html,body{
   text-align: left;
 }
 
+
+/* glowing text */
+
+.glow {
+  font-size: 30px;
+  color: #82cc0baf;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow:  0 0 0px #e21212, 0 0 2px #fff, 0 0 100px #113f94, 0 0 4px #e60073, 0 0 5px #e60073, 0 0 6px #e60073, 0 0 7px #070204;
+  }
+  
+  to {
+    text-shadow:0 0 0px #0c0b0b, 0 0 3px #ff4da6, 0 0 15px #ff4da6, 0 0 50px #ff4da6, 0 0 6px #ff4da6, 0 0 700px #ff4da6, 0 0 8px #ff4da6;
+  }
+}
+
+
+
+
+
 /* Added for modern look */
 .section li a {
   transition: color 0.3s ease, transform 0.2s ease;

@@ -16,10 +16,20 @@ html,body{
   display: flex;
   justify-content: space-between; 
   align-items: center;
-  position: relative;
-  cursor: pointer;
-  font-family: cursive;
+  position: fixed;   /* ✅ stays fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;     /* stays above everything */
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  padding-top: 80px;  /* ✅ same as navbar height */
+}
+
 
 
 

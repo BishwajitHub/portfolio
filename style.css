@@ -118,9 +118,9 @@ body {
 
 .img {
   position: relative;
-  min-height: 460px;
+  min-height: 560px;
   width: 100%;
-  background-image: url("home.jpg");
+  background-image: url("1st\ backG.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

@@ -118,7 +118,7 @@ body {
 
 .img {
   position: relative;
-  min-height: 560px;
+  min-height: 460px;
   width: 100%;
   background-image: url("1st\ backG.png");
   background-size: cover;

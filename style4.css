@@ -41,7 +41,7 @@ body {
 .blog {
   position: relative;
   height: 50vh; 
-  background: url("shivaji.jpg") center/cover no-repeat;
+  background: url("blog\ BG.png") center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -63,6 +63,12 @@ body {
   flex: 1;
 }
 
+.proprogess{
+  height: 50px;
+  width: 40px;
+  margin: 100px;
+  display: flex;
+}
 /* ====== Blog Container ====== */
 .blog-container {
   width: 80%;

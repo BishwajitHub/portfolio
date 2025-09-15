@@ -194,9 +194,10 @@ body {
 
 .skill-card:hover {
     transform: translateY(-8px);
-    background: #ff6600;
-    color: rgb(110, 9, 59);
+    background:  wheat;
+   color: rgb(170, 24, 24);
 }
+
 
 .skill-card:hover i {
     transform: scale(1.2);

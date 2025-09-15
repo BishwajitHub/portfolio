@@ -37,6 +37,47 @@ body {
   background-color: #058f8f;
 }
 
+/* nave after boder color  */
+.section {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.section li {
+    flex: 1;                        
+    text-align: center;            
+}
+
+.section li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 80px;
+  transition: color 0.3s ease;
+  text-align: left;
+}
+.mylogo img {
+   display: block; 
+    height: 85px;
+    width: 120px;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    padding-right: 5px;
+    border-radius: 500px;
+    padding: 2pt;
+}
+
+/* Nave end  */
+
+
+
 /* ====== Hero Background ====== */
 .blog {
   position: relative;

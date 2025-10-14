@@ -10,6 +10,10 @@
     
 </head>
 <body>
+
+  <header>
+    <button id="theme-toggle">🌙</button>
+  </header>
 <div>
 <header>
   
@@ -78,6 +82,17 @@
       <p>Proficient in Python for developing applications, data analysis, and automation. Skilled in using core concepts like functions, OOP, and file handling along with popular libraries such as NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, TensorFlow, and Flask for data science, machine learning, and web development.
       </p>
     </div>
+    
+   <div class="skill-c">
+      <h3><i class="fa-brands fa-square-figma"></i>figma4e</h3>
+      <p>Proficient in using Figma for UI/UX design, wireframing, and prototyping. Skilled at creating responsive layouts, interactive components, and collaborative design systems. Experienced in turning ideas into polished visuals, ensuring consistency in typography, colors, and branding for modern web and mobile applications.
+      </p>
+    </div>
+    <div class="skill-c">
+      <h3><i class="fa-brands fa-bootstrap"></i> Bootstrap</h3>
+      <p>using Bootstrap for building responsive and mobile-first websites. Skilled at leveraging its grid system, pre-designed components, and utilities to create clean and consistent layouts quickly. Able to customize themes and integrate Bootstrap with JavaScript for interactive and modern web applications.
+    </div>
+
 
     <div class="skill-c">
       <h3><i class="fa-solid fa-laptop-code"></i> Frontend Developer </h3>
@@ -91,16 +106,7 @@
       </p>
     </div>
 
-    <div class="skill-c">
-      <h3><i class="fa-brands fa-square-figma"></i>figma4e</h3>
-      <p>Proficient in using Figma for UI/UX design, wireframing, and prototyping. Skilled at creating responsive layouts, interactive components, and collaborative design systems. Experienced in turning ideas into polished visuals, ensuring consistency in typography, colors, and branding for modern web and mobile applications.
-      </p>
-    </div>
-
-    <div class="skill-c">
-      <h3><i class="fa-brands fa-bootstrap"></i> Bootstrap</h3>
-      <p>using Bootstrap for building responsive and mobile-first websites. Skilled at leveraging its grid system, pre-designed components, and utilities to create clean and consistent layouts quickly. Able to customize themes and integrate Bootstrap with JavaScript for interactive and modern web applications.
-    </div>
+   
   </section>
 
   <!-- Skill section close -->
@@ -130,6 +136,47 @@
     </div>
   </section>
 
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    iframe {
+      width: 10%;
+      height: 50vh; /* Full page height */
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- Embed the PDF -->
+  <iframe src="https://drive.google.com/file/d/1axQIXDs3If9--En99g20v0bc-IjLAmbg/view?usp=drivesdk"></iframe>
+</body>
+<script>
+  const toggle = document.getElementById("theme-toggle");
+  const body = document.body;
+
+  // ✅ Check saved theme
+  if (localStorage.getItem("theme") === "dark") {
+    body.classList.add("dark-mode");
+    toggle.textContent = "☀️";
+  }
+
+  // ✅ Toggle click event
+  toggle.addEventListener("click", () => {
+    body.classList.toggle("dark-mode");
+
+    if (body.classList.contains("dark-mode")) {
+      toggle.textContent = "☀️";
+      localStorage.setItem("theme", "dark");
+    } else {
+      toggle.textContent = "🌙";
+      localStorage.setItem("theme", "light");
+    }
+  });
+</script>
+
+
   <!-- Education section close -->
 
   <!-- footer section start -->
@@ -152,6 +199,7 @@
    <!-- footer section closed -->
 
     <!-- javascript for the navbar for only mobile phone -->
+     
      <!-- JavaScript for the navbar toggle (only for mobile) -->
 <script>
   const toggle = document.getElementById("menu-toggel");
